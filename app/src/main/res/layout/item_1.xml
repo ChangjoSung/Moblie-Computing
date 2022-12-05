@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="3dp"
+
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/GameImage_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+
+                    android:src="@drawable/google_1" />
+
+                <TextView
+                    android:id="@+id/ChartName_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+
+
+                    android:text="원펀맨: 영웅의 길"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+
+
+                    android:text="DAMO NETWORK LIMITED"
+                    android:textColor="@android:color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+
+                android:layout_marginTop="10dp"
+                android:background="#606060"
+                android:baselineAligned="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+
+
+                    android:text="미리보기"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="215dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/info_image1"/>
+
+                    <ImageView
+                        android:layout_width="215dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/info_image2" />
+
+                    <ImageView
+                        android:layout_width="215dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/info_image3"/>
+
+                    <ImageView
+                        android:layout_width="215dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/info_image4"/>
+
+                    <ImageView
+                        android:layout_width="215dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/info_image5"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+
+                android:layout_marginTop="10dp"
+                android:background="#606060"
+                android:baselineAligned="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+
+
+                    android:text="배경"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="15dp"
+
+                    android:background="#5E707070"
+                    android:text="RPG의 한계에 진.심.펀.치! \n\n인기 애니메이션 “원펀맨” IP를 활용한 RPG게임 “원펀맨:영웅의길”은 [ONE PUNCH MAN]제작 위원회가 정식으로 허가하였으며, 집영사를 포함하여 [ONE PUNCH MAN]제작 위원회가 검수하고 있습니다."
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+
+                android:layout_marginTop="10dp"
+                android:background="#606060"
+                android:baselineAligned="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="평점"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                tools:context=".PieChartActivity">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

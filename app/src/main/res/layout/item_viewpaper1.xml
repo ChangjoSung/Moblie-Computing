@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context = ".item_viewpaper1">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textOff="무료앱"
+        android:textOn="유료앱" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/GoogleImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+
+                android:src="@drawable/googleplay" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+
+                android:text="Google Play"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_1" />
+
+            <TextView
+                android:id="@+id/ChartName_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+
+                android:text="원펀맨: 영웅의 길"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_1"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_2" />
+
+            <TextView
+                android:id="@+id/ChartName_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="달토끼 키우기"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_2"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_3" />
+
+            <TextView
+                android:id="@+id/ChartName_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="드래곤라자 오리진:국산 MMORPG"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_3"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_4" />
+
+            <TextView
+                android:id="@+id/ChartName_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="언더토피아"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_4"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_5" />
+
+            <TextView
+                android:id="@+id/ChartName_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="탕탕특공대"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_5"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_6" />
+
+            <TextView
+                android:id="@+id/ChartName_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="파이널 헌터"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_6"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_7" />
+
+            <TextView
+                android:id="@+id/ChartName_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="쩐의세계"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_7"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_8" />
+
+            <TextView
+                android:id="@+id/ChartName_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="피파모바일"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_8"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_9" />
+
+            <TextView
+                android:id="@+id/ChartName_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="후회하게 해주마"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_9"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/GameImage_10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/google_10" />
+
+            <TextView
+                android:id="@+id/ChartName_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="문명: Reign of Power"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Button_10"
+
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+
+</LinearLayout>

@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context = ".item_viewpaper2">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textOff="무료앱"
+        android:textOn="유료앱" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/AppstoreImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+
+                android:src="@drawable/appstore" />
+
+            <TextView
+                android:id="@+id/as_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+
+                android:text="App Store"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_1" />
+
+            <TextView
+                android:id="@+id/AppChartName_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="원펀맨: 영웅의 길"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AppButton_1"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_2" />
+
+            <TextView
+                android:id="@+id/AppChartName_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="Valor Legends: 이터널 서머너"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AppButton_2"
+                android:background="#81676767"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_3" />
+
+            <TextView
+                android:id="@+id/AppChartName_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="언더토피아"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_3"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_4" />
+
+            <TextView
+                android:id="@+id/AppChartName_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="탕탕특공대"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_4"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_5" />
+
+            <TextView
+                android:id="@+id/AppChartName_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="Makeover Studio: Makeup Games"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_5"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_6" />
+
+            <TextView
+                android:id="@+id/AppChartName_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="피파모바일"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_6"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_7" />
+
+            <TextView
+                android:id="@+id/AppChartName_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="갓물주 키우기"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_7"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_8" />
+
+            <TextView
+                android:id="@+id/AppChartName_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="FIFA ONLINE 4 M by EA SPORTS™"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_8"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_9" />
+
+            <TextView
+                android:id="@+id/AppChartName_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="마이티 파워: 배틀 히어로즈"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_9"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/AppGameImage_10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/appstore_10" />
+
+            <TextView
+                android:id="@+id/AppChartName_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="텐텐 (TenTen)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="#81676767"
+                android:id="@+id/AppButton_10"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="정보"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="#606060"
+            android:baselineAligned="false" />
+
+</LinearLayout>

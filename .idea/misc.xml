@@ -3,7 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/82109/AndroidStudioProjects/1st_Project/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/82109/Desktop/mobile computing/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/82109/Desktop/mobile computing/MyApplication/app/src/main/res/layout/content_main.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/82109/Desktop/mobile computing/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.264" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/content_main.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/fragment_item_viewpaper1.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/fragment_item_viewpaper2.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/item_1.xml" value="0.264" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/item_2.xml" value="0.234375" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/item_viewpager.xml" value="0.2" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/item_viewpaper1.xml" value="0.264" />
+        <entry key="..\:/Users/82109/Desktop/mobilecomputing/MyApplication/app/src/main/res/layout/item_viewpaper2.xml" value="0.1947463768115942" />
       </map>
     </option>
   </component>
